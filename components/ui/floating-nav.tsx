@@ -54,17 +54,18 @@ export const FloatingNav = ({ navItems, className }: FloatingNavProps) => {
           duration: 0.2,
         }}
         className={cn(
-          "fixed inset-x-0 top-6 z-[5000] mx-auto flex max-w-fit items-center justify-between space-x-3 rounded-2xl border border-orange-500/60 bg-black px-5 py-3 shadow-md backdrop-blur-sm",
+          "fixed inset-x-0 top-6 z-[5000] mx-auto flex max-w-fit items-center justify-between space-x-3 rounded-2xl border px-5 py-3 shadow-md backdrop-blur-sm",
+          "bg-white/80 border-orange-500/30 text-orange-600 dark:bg-black/80 dark:border-orange-500/60 dark:text-orange-400",
           className
         )}
       >
         {/* Logo */}
         <Link href="/" className="flex items-center mr-2">
           <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="11" cy="11" r="11" fill="#18181b" />
+            <circle cx="11" cy="11" r="11" className="fill-orange-100 dark:fill-zinc-900" />
             <path d="M7 15L15 7M7 7h8v8" stroke="#FF6B00" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
-          <span className="ml-1 text-base font-bold text-orange-400">NA</span>
+          <span className="ml-1 text-base font-bold text-orange-600 dark:text-orange-400">NA</span>
         </Link>
 
         {/* Nav Items */}
@@ -74,7 +75,8 @@ export const FloatingNav = ({ navItems, className }: FloatingNavProps) => {
               key={`link-${idx}`}
               href={navItem.link}
               className={cn(
-                "relative flex items-center text-white hover:text-orange-400 transition-colors duration-200 text-sm font-medium px-1 py-0.5 rounded focus:outline-none focus:ring-0"
+                "relative flex items-center transition-colors duration-200 text-sm font-medium px-1 py-0.5 rounded focus:outline-none focus:ring-0",
+                "text-orange-600 hover:text-orange-500 dark:text-white dark:hover:text-orange-400"
               )}
             >
               <span className="!cursor-pointer">{navItem.name}</span>
@@ -98,7 +100,7 @@ const ThemeToggleButton = () => {
   return (
     <button
       aria-label="Toggle Dark Mode"
-      className="ml-2 rounded-full border border-orange-500 bg-black px-2 py-1 text-xs font-bold text-orange-400 shadow-sm transition-all hover:bg-orange-500 hover:text-black focus:outline-none focus:ring-0"
+      className="ml-2 rounded-full border px-2 py-1 text-xs font-bold shadow-sm transition-all focus:outline-none focus:ring-0 border-orange-300 bg-orange-100 text-orange-600 hover:bg-orange-200 hover:text-black dark:border-orange-500 dark:bg-black dark:text-orange-400 dark:hover:bg-orange-500 dark:hover:text-black"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
       {theme === "dark" ? "🌙" : "☀️"}
