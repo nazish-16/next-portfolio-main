@@ -16,9 +16,9 @@ export const Loader = ({ duration = 2.5 }: { duration?: number }) => {
   const dotPosition = `${progress}%`;
 
   return (
-    <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black">
+    <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-white text-black dark:bg-black dark:text-white">
       <div className="flex flex-col items-center">
-        <div className="relative w-64 h-3 bg-orange-900/30 rounded-full overflow-hidden shadow-lg">
+        <div className="relative w-64 h-3 bg-orange-200/40 dark:bg-orange-900/30 rounded-full overflow-hidden shadow-lg">
           {/* Progress bar */}
           <div
             className="absolute left-0 top-0 h-full bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600 rounded-full transition-all duration-200"

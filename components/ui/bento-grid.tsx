@@ -6,7 +6,6 @@ import { IoCopyOutline } from "react-icons/io5";
 import Lottie from "react-lottie";
 import { useTheme } from "next-themes";
 
-import { links } from "@/config";
 import { techStack } from "@/data";
 import animationData from "@/data/confetti.json";
 import { cn } from "@/lib/utils";
