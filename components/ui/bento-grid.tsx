@@ -5,12 +5,17 @@ import { useEffect, useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 import Lottie from "react-lottie";
 import { useTheme } from "next-themes";
+import dynamic from "next/dynamic";
 
 import { techStack } from "@/data";
 import animationData from "@/data/confetti.json";
 import { cn } from "@/lib/utils";
 
-import { BackgroundGradientAnimation } from "./background-gradient-animation";
+const BackgroundGradientAnimation = dynamic(
+  () => import("./background-gradient-animation").then(mod => mod.BackgroundGradientAnimation),
+  { ssr: false }
+);
+
 import { MagicButton } from "./magic-button";
 import { ProgressGraph } from "./progress-graph";
 import { MemoryGame } from "./memory-game";
@@ -226,7 +231,7 @@ export const BentoGridItem = ({
                 <MagicButton
                   title={copied ? "Email copied!" : "Copy my email"}
                   icon={<IoCopyOutline />}
-                  otherClasses="!bg-black"
+                  otherClasses="!bg-black text-orange-200"
                   handleClick={handleCopy}
                   asChild
                 />
