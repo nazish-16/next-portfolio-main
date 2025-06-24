@@ -24,7 +24,7 @@ export const Approach = () => {
         <Card
           title="Prototyping & Iteration"
           icon={<MagicButton title="Phase 2" asChild />}
-          description="With clarity in hand, I craft interactive prototypes and design mockups. Regular syncs keep you in the loop as your vision evolves into a tangible interface."
+          description="With clarity in hand, We craft interactive prototypes and design mockups. Regular syncs keep you in the loop as your vision evolves into a tangible interface."
         >
           <CanvasRevealEffect
             animationSpeed={3}
