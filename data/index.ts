@@ -134,26 +134,27 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote: `I was one of the clients at Electroplix and got a chance to work with Nazish Usaid. Technically very sound on what he is doing when it comes web and application development. Very enthusiastic to learn and adapt new technologies at the work place. Understanding the requirements and delivering accordingly is something cannot be denied.`,
+    quote: `We had the opportunity to collaborate with Nazish and Usaid at Electroplix. Nazish brought deep technical skills in web and application development, while Usaid showed remarkable adaptability and eagerness to learn new technologies. Together, they understood our requirements and delivered precisely what was needed.`,
     name: "Shoeb Ahmed",
     title: "Senior Digital Marketing Specialist",
   },
   {
-    quote: `Nazish Usaid has an incredible ability to approach problems with a fresh perspective. Even though we come from different engineering fields, his analytical thinking, structured approach, and problem-solving skills have always stood out. His passion for technology, innovation, creativity, and continuous learning is truly inspiring.`,
+    quote: `Nazish and Usaid both approach problems with a structured mindset and fresh perspective. Even though we hail from different engineering backgrounds, I was always impressed by their analytical thinking and drive to innovate. Their passion for technology and continuous learning is admirable.`,
     name: "Habeeb Khan",
     title: "Senior Lead Manager",
   },
   {
-    quote: `Working with Nazish Usaid has been an eye-opening experience. He makes complex concepts easy to grasp and always encourages creative solutions. His technical expertise, coupled with his leadership skills, makes him an invaluable asset in any team.`,
+    quote: `Working with Nazish and Usaid has been insightful. They simplify complex ideas and actively encourage creativity in solutions. Their technical expertise, combined with a collaborative spirit, makes them valuable contributors to any team.`,
     name: "Mohammed Fawaaz Moin",
     title: "Mechanical Design Engineer at Arif & Bintoak",
   },
   {
-    quote: `Nazish Usaid is an exceptional developer with a deep understanding of full-stack technologies. His ability to simplify problems and mentor others sets him apart. His leadership and technical skills make working with him a great learning experience.`,
+    quote: `Nazish and Usaid stand out as talented developers with strong full-stack capabilities. Their ability to break down problems and guide others makes them excellent teammates. Their leadership and willingness to share knowledge make working with them a rewarding experience.`,
     name: "Mohammed Maaz",
     title: "Full Stack Developer at Masterworks",
   },
 ] as const;
+
 
 export const companies = [
   {
@@ -176,26 +177,27 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Cheif Technology Officer",
-    desc: "As the CTO of Electroplix, I lead the company`s technology vision, Web and Application solutions.",
+    title: "Chief Technology Officer",
+    desc: "As the CTOs of Electroplix, we lead the company`s technology vision and provide Web and Application solutions.",
     className: "md:col-span-2", 
     thumbnail: "/electroplix.webp",
   },
   {
     id: 2,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Engineer Interns",
+    desc: "We assisted in the development of a web-based platform using React.js, enhancing interactivity and user experience.",
     className: "md:col-span-2",
     thumbnail: "/sofi.svg",
   },
   {
     id: 3,
-    title: "Full stack Developer",
-    desc: "Designed and developed web app using Next.js and hosted using Hostinger.",
+    title: "Full Stack Developers",
+    desc: "We designed and developed a web application using Next.js and deployed it on Hostinger.",
     className: "md:col-span-2",
     thumbnail: "/orator.webp",
   },
 ] as const;
+
 
 export const socialMedia = [
   {
