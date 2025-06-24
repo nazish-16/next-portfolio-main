@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "We're very flexible with time zone communications",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Our tech stack",
+    description: "We constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiasts with a passion for development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -69,7 +69,7 @@ export const gridItems = [
   },
   {
     id: 7,
-    title: "My Professional Growth",
+    title: "Our Professional Growth",
     description: "Journey from Beginner to Present Day",
     className: "lg:col-span-3 md:col-span-6 md:row-span-2",
     imgClassName: "",
@@ -201,17 +201,17 @@ export const socialMedia = [
   {
     name: "GitHub",
     img: "/git.svg",
-    link: "https://github.com/Nazish Usaid-16",
+    link: "https://github.com/nazish-16",
   },
   {
     name: "Twitter",
     img: "/twit.svg",
-    link: "https://twitter.com/tsismeNazish Usaid",
+    link: "https://twitter.com/tsismenazish",
   },
   {
     name: "LinkedIn",
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/realNazish Usaid",
+    link: "https://www.linkedin.com/in/realnazish",
   },
 ] as const;
 

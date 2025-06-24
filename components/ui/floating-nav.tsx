@@ -65,7 +65,7 @@ export const FloatingNav = ({ navItems, className }: FloatingNavProps) => {
             <circle cx="11" cy="11" r="11" className="fill-orange-100 dark:fill-zinc-900" />
             <path d="M7 15L15 7M7 7h8v8" stroke="#FF6B00" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
-          <span className="ml-1 text-base font-bold text-orange-600 dark:text-orange-400">NA</span>
+          <span className="ml-1 text-base font-bold text-orange-600 dark:text-orange-400">NU</span>
         </Link>
 
         {/* Nav Items */}
