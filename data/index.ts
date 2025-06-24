@@ -168,7 +168,7 @@ export const companies = [
     nameImg: "/Nobu.png",
   },
   {
-    id: 3,
+    id: 3,  
     name: "Masterworks",
     nameImg: "/master.png",
   },
