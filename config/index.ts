@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 
 export const links = {
-  ownerName: "Nazish",
+  ownerName: "Nazish Usaid",
   ownerEmail: "realnazishahmed@gmail.com",
 } as const;
 
 export const siteConfig: Metadata = {
-  title: `Nazish Ahmed`,
-  description: "I am a passionate and driven software developer currently honing my skills at DCET. With expertise in product development, I specialize in building scalable, user-centric web applications and mobile applications that deliver seamless performance. I am currently building Electroplix, an IT services company focused on delivering cutting-edge technological solutions. From software development to cloud infrastructure and automation, Electroplix aims to provide businesses with scalable and efficient digital services.",
+  title: `Nazish Usaid`,
+  description: "We are a passionate and driven team of software developers currently honing our skills at DCET. With expertise in product development, we specialize in building scalable, user-centric web applications and mobile applications that deliver seamless performance. We are currently building Electroplix, an IT services company focused on delivering cutting-edge technological solutions. From software development to cloud infrastructure and automation, Electroplix aims to provide businesses with scalable and efficient digital services.",
   keywords: [
     "reactjs",
     "nextjs",

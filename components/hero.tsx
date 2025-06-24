@@ -30,7 +30,7 @@ export const Hero = () => {
       <div className="relative z-10 my-20 flex justify-center">
         <div className="flex max-w-[89vw] flex-col items-center justify-center md:max-w-2xl lg:max-w-[60vw]">
           <h2 className="max-w-80 text-center text-xs uppercase tracking-widest text-black dark:text-white">
-            BUILT WITH <span className="animate-pulse">🧡</span> BY <Link href={`https://www.linkedin.com/in/realnazish/`} target="_blank" className="underline underline-offset-1 text-orange-500">Nazish Ahmed</Link>
+            BUILT WITH <span className="animate-pulse">🧡</span> BY <Link href={`https://www.linkedin.com/in/realnazish/`} target="_blank" className="underline underline-offset-1 text-orange-500">Nazish Usaid</Link>
           </h2>
 
           <TextGenerateEffect
@@ -39,12 +39,12 @@ export const Hero = () => {
           />
 
           <p className="mb-4 text-center text-sm text-orange-700/90 dark:text-orange-200/90 md:text-lg md:tracking-wider lg:text-lg">
-            Hey, I&apos;m Nazish Ahmed, a Sofware developer camping in India.
+            Hey, we are Nazish Usaid, a team of software developers based in India.
           </p>
 
           <Link href="#about" className="md:mt-10">
             <MagicButton
-              title="Show my work"
+              title="Show our work"
               icon={<FaLocationArrow />}
               position="right"
               asChild

@@ -57,7 +57,7 @@ export const Footer = () => {
               rel="noreferrer noopener"
               className="text-orange-500"
             >
-              Nazish Ahmed
+              Nazish Usaid
             </Link>{" "}
             |{" "} All Rights reserved
           </p>

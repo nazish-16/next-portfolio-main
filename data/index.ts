@@ -134,22 +134,22 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote: `I was one of the clients at Electroplix and got a chance to work with Nazish Ahmed. Technically very sound on what he is doing when it comes web and application development. Very enthusiastic to learn and adapt new technologies at the work place. Understanding the requirements and delivering accordingly is something cannot be denied.`,
+    quote: `I was one of the clients at Electroplix and got a chance to work with Nazish Usaid. Technically very sound on what he is doing when it comes web and application development. Very enthusiastic to learn and adapt new technologies at the work place. Understanding the requirements and delivering accordingly is something cannot be denied.`,
     name: "Shoeb Ahmed",
     title: "Senior Digital Marketing Specialist",
   },
   {
-    quote: `Nazish has an incredible ability to approach problems with a fresh perspective. Even though we come from different engineering fields, his analytical thinking, structured approach, and problem-solving skills have always stood out. His passion for technology, innovation, creativity, and continuous learning is truly inspiring.`,
+    quote: `Nazish Usaid has an incredible ability to approach problems with a fresh perspective. Even though we come from different engineering fields, his analytical thinking, structured approach, and problem-solving skills have always stood out. His passion for technology, innovation, creativity, and continuous learning is truly inspiring.`,
     name: "Habeeb Khan",
     title: "Senior Lead Manager",
   },
   {
-    quote: `Working with Nazish has been an eye-opening experience. He makes complex concepts easy to grasp and always encourages creative solutions. His technical expertise, coupled with his leadership skills, makes him an invaluable asset in any team.`,
+    quote: `Working with Nazish Usaid has been an eye-opening experience. He makes complex concepts easy to grasp and always encourages creative solutions. His technical expertise, coupled with his leadership skills, makes him an invaluable asset in any team.`,
     name: "Mohammed Fawaaz Moin",
     title: "Mechanical Design Engineer at Arif & Bintoak",
   },
   {
-    quote: `Nazish is an exceptional developer with a deep understanding of full-stack technologies. His ability to simplify problems and mentor others sets him apart. His leadership and technical skills make working with him a great learning experience.`,
+    quote: `Nazish Usaid is an exceptional developer with a deep understanding of full-stack technologies. His ability to simplify problems and mentor others sets him apart. His leadership and technical skills make working with him a great learning experience.`,
     name: "Mohammed Maaz",
     title: "Full Stack Developer at Masterworks",
   },
@@ -201,17 +201,17 @@ export const socialMedia = [
   {
     name: "GitHub",
     img: "/git.svg",
-    link: "https://github.com/nazish-16",
+    link: "https://github.com/Nazish Usaid-16",
   },
   {
     name: "Twitter",
     img: "/twit.svg",
-    link: "https://twitter.com/tsismenazish",
+    link: "https://twitter.com/tsismeNazish Usaid",
   },
   {
     name: "LinkedIn",
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/realnazish",
+    link: "https://www.linkedin.com/in/realNazish Usaid",
   },
 ] as const;
 
