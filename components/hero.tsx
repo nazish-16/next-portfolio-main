@@ -30,7 +30,7 @@ export const Hero = () => {
       <div className="relative z-10 my-20 flex justify-center">
         <div className="flex max-w-[89vw] flex-col items-center justify-center md:max-w-2xl lg:max-w-[60vw]">
           <h2 className="max-w-80 text-center text-xs uppercase tracking-widest text-black dark:text-white">
-            BUILT WITH <span className="animate-pulse">🧡</span> BY <Link href={`https://www.linkedin.com/in/realnazish/`} target="_blank" className="underline underline-offset-1 text-orange-500">Nazish</Link>&<Link href={`https://www.linkedin.com/in/syed-usaid-minhaj-28033226a`} className="underline underline-offset-1">USIAD</Link>
+            BUILT WITH <span className="animate-pulse">🧡</span> BY <Link href={`https://www.linkedin.com/in/realnazish/`} target="_blank" className="underline underline-offset-1 text-orange-500">Nazish</Link> & <Link href={`https://www.linkedin.com/in/syed-usaid-minhaj-28033226a`} className="text-orange-500 underline underline-offset-1">USIAD</Link>
           </h2>
 
           <TextGenerateEffect
